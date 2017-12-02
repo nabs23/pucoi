@@ -19,19 +19,34 @@
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
-        <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="#">Link in level 2</a></li>
-            <li><a href="#">Link in level 2</a></li>
-          </ul>
-        </li>
+        @foreach(config('menu') as $item)
+                @if (isset($item['items']))
+                  <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i> <span>{{ $item['name'] }}</span>
+                      <span class="pull-right-container">
+                          <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                      @foreach($item['items'] as $submenu)
+                        <li class="active">
+                          <a href="{{ $submenu['url'] }}">
+                            <i class="fa {{ isset($submenu['icon']) ? $submenu['icon'] : 'fa-link'}}"></i> 
+                            <span>{{ $submenu['name'] }}</span>
+                          </a>
+                        </li>
+                      @endforeach
+                    </ul>
+                  </li>
+                @else
+                  <li class="active">
+                    <a href="{{$item['url']}}">
+                      <i class="fa {{ isset($item['icon']) ? $item['icon'] : 'fa-link'}}"></i> 
+                      <span>{{$item['name']}}</span>
+                    </a>
+                  </li>
+                @endif
+        @endforeach
       </ul>
       <!-- /.sidebar-menu -->
     </section>
