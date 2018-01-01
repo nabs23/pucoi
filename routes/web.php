@@ -15,12 +15,12 @@
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-Route::group(['middleware' => 'auth'], function(){
-	Route::get('/', function () {
+Route::get('/', function () {
 	    return view('welcome');
 	});
+
+Route::group(['middleware' => 'auth'], function(){
+	Route::get('/home', 'HomeController@index')->name('home');
 	Route::get('users', 'UserController@index')->name('users');
 	Route::get('users/{user}', 'UserController@show')->name('users.show');
 });
