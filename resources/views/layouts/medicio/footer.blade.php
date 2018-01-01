@@ -4,11 +4,8 @@
         <div class="row">
             <div class="col-sm-6 col-md-4">
                 <div class="wow fadeInDown" data-wow-delay="0.1s">
-                    <div class="widget">
-                        <h5><a href="/about">About PUCOI</a></h5>
-                        <p>
-                            The Philippine Ulama Congress Organization, Inc. (PUCOI) is a duly registered religious, non-stock and non- profit organization whose aim is to preserve, propagate and promote the balanced teachings of Islam.
-                        </p>
+                    <div class="widget text-center">
+                        <img src="img/pucoi-logo-lg.png" alt="" width="60%" />
                     </div>
                 </div>
             </div>
