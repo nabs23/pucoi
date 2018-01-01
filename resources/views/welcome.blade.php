@@ -42,31 +42,13 @@
     </section>
     
     <!-- /Section: intro -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
                     
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                        
-                        
-                    
+@include('welcome.boxes')             
+@include('welcome.call')             
+@include('welcome.pricing')             
+@include('welcome.services')             
+@include('welcome.team')             
+@include('welcome.testimonials')             
+@include('welcome.works')             
 @include('welcome.partners')             
 @endsection

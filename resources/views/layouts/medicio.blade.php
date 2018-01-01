@@ -37,18 +37,6 @@
         
         <div class="wrapper">
             <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-                <div class="top-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6 col-md-6">
-                                <p class="bold text-left">Monday - Saturday, 8am to 10pm </p>
-                            </div>
-                            <div class="col-sm-6 col-md-6">
-                                <p class="bold text-right">Call us now +62 008 65 001</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="container navigation">
             
                     <div class="navbar-header page-scroll">
