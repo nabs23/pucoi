@@ -5,49 +5,44 @@
             <div class="col-sm-6 col-md-4">
                 <div class="wow fadeInDown" data-wow-delay="0.1s">
                     <div class="widget">
-                        <h5>About Medicio</h5>
+                        <h5><a href="/about">About PUCOI</a></h5>
                         <p>
-                            Lorem ipsum dolor sit amet, ne nam purto nihil impetus, an facilisi accommodare sea
+                            The Philippine Ulama Congress Organization, Inc. (PUCOI) is a duly registered religious, non-stock and non- profit organization whose aim is to preserve, propagate and promote the balanced teachings of Islam.
                         </p>
-                    </div>
-                </div>
-                <div class="wow fadeInDown" data-wow-delay="0.1s">
-                    <div class="widget">
-                        <h5>Information</h5>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Laboratory</a></li>
-                            <li><a href="#">Medical treatment</a></li>
-                            <li><a href="#">Terms & conditions</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
                 <div class="wow fadeInDown" data-wow-delay="0.1s">
                     <div class="widget">
-                        <h5>Medicio center</h5>
+                        <h5>Contact Information</h5>
                         <p>
-                            Nam leo lorem, tincidunt id risus ut, ornare tincidunt naqunc sit amet.
+                            Feel free to contact us.
                         </p>
                         <ul>
                             <li>
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-calendar-o fa-stack-1x fa-inverse"></i>
-                                </span> Monday - Saturday, 8am to 10pm
+                                </span> Monday - Thursday, 8am to 5pm
                             </li>
                             <li>
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
-                                </span> +62 0888 904 711
+                                </span> 09172400478
+                            </li>
+                            <li>
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+                                </span> 02-5320126
                             </li>
                             <li>
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-                                </span> hello@medicio.com
+                                </span> pucoinc@gmail.com
                             </li>
                             
                         </ul>
@@ -58,7 +53,8 @@
                 <div class="wow fadeInDown" data-wow-delay="0.1s">
                     <div class="widget">
                         <h5>Our location</h5>
-                        <p>The Suithouse V303, Kuningan City, Jakarta Indonesia 12940</p>
+                            <a href="https://maps.google.com/maps?q=31-B+A.+Lake+St.,+Brgy.+Balong-Bato,+San+Juan+City,+Metro+Manila+Philippines" class="iframe-popup">
+                                <i class="fa fa-map-marker"></i> 31-B A. Lake St., Brgy. Balong-Bato, San Juan City, Metro Manila Philippines</a>
                         
                     </div>
                 </div>
@@ -83,7 +79,7 @@
                 <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="text-left">
-                            <p>&copy;Copyright - Medicio Theme. All rights reserved.</p>
+                            <p>&copy; Copyright - PUCOI. All rights reserved.</p>
                         </div>
                     </div>
                 </div>

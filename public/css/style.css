@@ -760,7 +760,8 @@ hr.bold {
 }
 
 .intro-content {
-	background: url(../img/dummy/bg1.jpg) no-repeat top center;
+	/* background: url(../img/dummy/bg1.jpg) no-repeat top center; */
+	background: #65b037;
 	padding:200px 0 60px;
 }
 .intro-content.intro-nobg {

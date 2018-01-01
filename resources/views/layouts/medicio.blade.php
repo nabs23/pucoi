@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     
-    <title>Medicio landing page template for Health niche</title>
+    <title>Philippine Ulama Congress Organization, Inc.</title>
     
     <!-- css -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -23,7 +23,7 @@
     <!-- boxed bg -->
     <link id="bodybg" href="bodybg/bg1.css" rel="stylesheet" type="text/css" />
     <!-- template skin -->
-    <link id="t-colors" href="color/default.css" rel="stylesheet">
+    <link id="t-colors" href="color/green.css" rel="stylesheet">
     
     <!-- =======================================================
         Theme Name: Medicio
@@ -36,62 +36,9 @@
     <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
         
         <div class="wrapper">
-            <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-                <div class="container navigation">
-            
-                    <div class="navbar-header page-scroll">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                        <a class="navbar-brand" href="index.html">
-                            <img src="img/logo.png" alt="" width="150" height="40" />
-                        </a>
-                    </div>
-            
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href="#intro">Home</a>
-                            </li>
-                            <li>
-                                <a href="#service">Service</a>
-                            </li>
-                            <li>
-                                <a href="#doctor">Doctors</a>
-                            </li>
-                            <li>
-                                <a href="#facilities">Facilities</a>
-                            </li>
-                            <li>
-                                <a href="#pricing">Pricing</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <span class="badge custom-badge red pull-right">Extra</span>More
-                                    <b class="caret"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="index.html">Home CTA</a>
-                                    </li>
-                                    <li>
-                                        <a href="index-form.html">Home Form</a>
-                                    </li>
-                                    <li>
-                                        <a href="index-video.html">Home video</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container -->
-            </nav>
-         @yield('content')
-
-         @include('layouts.medicio.footer')
+        @include('layouts.medicio.nav')
+        @yield('content')
+        @include('layouts.medicio.footer')
         </div>
         
         <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
