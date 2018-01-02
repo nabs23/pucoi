@@ -24,6 +24,8 @@
     <link id="bodybg" href="bodybg/bg1.css" rel="stylesheet" type="text/css" />
     <!-- template skin -->
     <link id="t-colors" href="color/green.css" rel="stylesheet">
+
+    @yield('style')
     
     <!-- =======================================================
         Theme Name: Medicio
@@ -55,6 +57,8 @@
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/nivo-lightbox.min.js"></script>
         <script src="js/custom.js"></script>
+
+        @yield('script')
         
     </body>
     

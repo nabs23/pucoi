@@ -116,6 +116,7 @@
                     </div>
                 </div>
             </div>
+            <div class="col-lg-12"><img src="img/org-chart-web.jpg" width="100%" alt="" class="image-responsive"></div>
         </div>
     </div>
 </section>
