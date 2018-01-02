@@ -27,7 +27,7 @@
                     <div class="wow fadeInUp" data-wow-delay="0.2s">
                         <div class="box text-center">
                 
-                            <img src="img/thumbs/islamic-education.jpg" width="75%" class="image-responsive img-circle" />
+                            <img src="img/thumbs/shariah.jpg" width="75%" class="image-responsive img-circle" />
                 
                             <h4 class="h-bold paddingtop-30">Shariah Legal Services</h4>
                         </div>

@@ -116,7 +116,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12"><img src="img/org-chart-web.jpg" width="100%" alt="" class="image-responsive"></div>
+            <div class="col-lg-12">
+                 <div class="wow fadeInRight" data-wow-delay="0.1s">
+                    <div class="service-box">
+                        <div class="service-desc">
+                            <h5 class="h-light">ORGANIZATION</h5>
+                            <img src="img/org-chart-web.jpg" width="100%" alt="" class="image-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
