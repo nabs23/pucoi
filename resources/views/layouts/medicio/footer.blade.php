@@ -8,6 +8,11 @@
                         <img src="img/pucoi-logo-lg.png" alt="" width="60%" />
                     </div>
                 </div>
+                <div class="wow fadeInDown" data-wow-delay="0.1s">
+                  <div class="widget text-center">
+                    <h5>SEC Reg. No. CN200520263</h5>
+                  </div>
+                </div>
             </div>
             <div class="col-sm-6 col-md-4">
                 <div class="wow fadeInDown" data-wow-delay="0.1s">

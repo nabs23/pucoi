@@ -2088,3 +2088,8 @@ a.btn:focus{
 		padding:250px 0 0;
 	}
 }
+
+.services li{
+	font-size: 120%;
+	padding-bottom: 30px;
+}

@@ -20,6 +20,7 @@ Route::get('/', function () {
 	});
 
 Route::get('about', 'AboutController@index')->name('about');
+Route::get('services', 'AboutController@services')->name('services');
 
 Route::group(['middleware' => 'auth'], function(){
 	Route::get('/home', 'HomeController@index')->name('home');

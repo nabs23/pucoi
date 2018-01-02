@@ -35,7 +35,7 @@
     
     <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
         
-        <div class="wrapper">
+        <div class="wrapper paddingtop-80">
         @include('layouts.medicio.nav')
         @yield('content')
         @include('layouts.medicio.footer')
